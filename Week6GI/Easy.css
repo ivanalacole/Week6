@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+table{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: static;    
+
+}
+img{
+    position: relative;
+    top: -705px;
+    height: 379px;
+}
+td{
+    height: 52px;
+    width: 100%;
+}
+tr{
+   height: 50px; 
+   color:red;
+   border-radius: 10px solid black;
+}
+tr:nth-child(odd){
+    background-color: red;
+}

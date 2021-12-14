@@ -1,0 +1,29 @@
+.chessboard{
+    display: grid;
+    border:1px solid #ffffff;
+    width: 400px;
+    height:400px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap:0px;
+}
+.black{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.White{
+    color: white;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+       
